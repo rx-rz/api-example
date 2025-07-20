@@ -198,13 +198,15 @@ Follow the JSend format:
 }
 ```
 
-### 4. **Domain > Repository > Service**
+### 4. **Domain > Repository > Service > Handler > Routes**
 
 Every feature should follow this split:
 
 * **Domain** = type definitions for business logic
 * **Repository** = raw DB queries
 * **Service** = high-level business actions
+* **Handler** = http handlers
+* **Routes** = http routes
 
 ### 5. **Error Handling**
 
