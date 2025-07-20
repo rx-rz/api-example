@@ -7,7 +7,7 @@ This is a structured, TypeScript-first API backend built on [Hono](https://hono.
   * ⚡️ Lightweight [Hono](https://hono.dev) router (Express-like, super fast)
   * 🧾 [JSend](https://github.com/omniti-labs/jsend) spec for consistent API responses
   * 🧠 [Zod](https://zod.dev) for validation
-  * 🔐 [BetterAuth](https://github.com/theodo/better-auth) (modular auth flows) + Drizzle adapter
+  * 🔐 [BetterAuth](https://www.better-auth.com/) (modular auth flows) + Drizzle adapter
   * 🗃️ PostgreSQL via [Drizzle ORM](https://orm.drizzle.team)
   * ☁️ Cloudflare R2 (S3-compatible) for file uploads
   * 🧱 Redis-backed rate limiting via [rate-limiter-flexible](https://www.npmjs.com/package/rate-limiter-flexible)
