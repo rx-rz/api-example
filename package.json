@@ -1,0 +1,44 @@
+{
+  "name": "api-backend",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "db:generate": "pnpm drizzle-kit generate",
+    "db:migrate": "pnpm drizzle-kit migrate",
+    "db:studio": "pnpm drizzle-kit studio",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.848.0",
+    "@aws-sdk/s3-request-presigner": "^3.848.0",
+    "@hono/node-server": "^1.15.0",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "better-auth": "^1.2.12",
+    "dotenv": "^17.2.0",
+    "drizzle-cuid2": "^2.1.0",
+    "drizzle-orm": "^0.44.2",
+    "hono": "^4.8.4",
+    "http-errors-enhanced": "^3.0.2",
+    "ioredis": "^5.6.1",
+    "pg": "^8.16.3",
+    "pino": "^9.7.0",
+    "rate-limiter-flexible": "^7.1.1",
+    "redis": "^5.6.0",
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/pg": "^8.15.4",
+    "@vitest/coverage-v8": "^3.2.4",
+    "drizzle-kit": "^0.31.4",
+    "pino-pretty": "^13.0.0",
+    "testcontainers": "^11.2.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
