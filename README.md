@@ -31,7 +31,7 @@ Make sure you have the following installed:
 ### 2\. **Clone the Repository**
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/rx-rz/api-example.git
 cd api-backend # Or whatever your project folder is named
 ```
 
