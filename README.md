@@ -1,6 +1,6 @@
-# 🧹 Hono API Backend — Modular, Typed, and Scalable
+# 🧹 Hono API Backend Template
 
-This is a structured, TypeScript-first API backend built on [Hono](https://hono.dev). It embraces clarity, modular design, and practical tooling — ideal for teams or solo devs building real-world backends.
+This is a structured, TypeScript-first API backend built on [Hono](https://hono.dev).
 
 ## ✨ Highlights
 
